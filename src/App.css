@@ -1,5 +1,12 @@
+
+.Titulo {
+  color: orange;
+}
+
+
 .App {
   text-align: center;
+  color: orange;
 }
 
 .App-logo {

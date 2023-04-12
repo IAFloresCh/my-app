@@ -6,9 +6,7 @@ import Father from './Registro/Father';
 const App = () => {
 
   return (
-    <div><Father />
-      <SignupForm /></div>
-
+<> Hello World!</>
   );
 }
 

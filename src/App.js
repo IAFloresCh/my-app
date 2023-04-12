@@ -1,8 +1,5 @@
 import './App.css';
-import SignupForm from './Registro/SignupForm';
-import Father from './Registro/Father';
-
-
+import React from 'react';
 const App = () => {
 
   return (

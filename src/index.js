@@ -3,9 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import App from './App';
-//import App from './App';
-import Todo from './Router/Todo';
-import TodoList from './TodoList';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

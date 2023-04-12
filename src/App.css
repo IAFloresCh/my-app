@@ -1,12 +1,14 @@
 
-.Titulo {
+AnimationOnScroll {
   color: orange;
 }
 
-
+h2{
+  margin-top: 200px;
+}
 .App {
   text-align: center;
-  color: orange;
+
 }
 
 .App-logo {

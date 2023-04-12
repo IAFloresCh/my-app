@@ -15,7 +15,7 @@ function App() {
       >
         <h1>Welcome to My Website</h1>
       </AnimationOnScroll>
-      <AnimationOnScroll animateIn="fadeIn" delay={400} >
+      <AnimationOnScroll animateIn="fadeIn" delay={400}>
         <p>This is a demo of react-animation-on-scroll.</p>
       </AnimationOnScroll>
       <AnimationOnScroll animateIn="fadeIn" delay={600}>
@@ -45,30 +45,36 @@ function App() {
         <h2>Look what i am doing</h2>
       </AnimationOnScroll>
 
-      <AnimationOnScroll animateIn="animate__shakeY" animateOut="animate__bounceOutRight">
-   <h2>Look what i am doing</h2>
-</AnimationOnScroll>
+      <AnimationOnScroll
+        animateIn="animate__shakeY"
+        animateOut="animate__bounceOutRight"
+      >
+        <h2>Look what i am doing</h2>
+      </AnimationOnScroll>
 
-<AnimationOnScroll initiallyVisible={true} animateIn="animate__flip">
-   <h2>Look what i am doing</h2>
-</AnimationOnScroll>
+      <AnimationOnScroll initiallyVisible={true} animateIn="animate__flip">
+        <h2>Look what i am doing</h2>
+      </AnimationOnScroll>
 
-<AnimationOnScroll initiallyVisible={true} duration={5} animateIn="animate__swing">
-   <h2>Look what i am doing</h2>
-</AnimationOnScroll>
+      <AnimationOnScroll
+        initiallyVisible={true}
+        duration={5}
+        animateIn="animate__swing"
+      >
+        <h2>Look what i am doing</h2>
+      </AnimationOnScroll>
 
-<AnimationOnScroll initiallyVisible={true} delay={2000} animateIn="animate__wobble">
-   <h2>Look what i am doing</h2>
-</AnimationOnScroll>
+      <AnimationOnScroll
+        initiallyVisible={true}
+        delay={2000}
+        animateIn="animate__wobble"
+      >
+        <h2>Look what i am doing</h2>
+      </AnimationOnScroll>
 
-<AnimationOnScroll animateOnce={true} animateIn="animate__rubberBand">
-   <h2>Look what i am doing</h2>
-</AnimationOnScroll>
-
-
-
-
-
+      <AnimationOnScroll animateIn="animate__rubberBand">
+        <h2>Look what i am doing</h2>
+      </AnimationOnScroll>
     </div>
   );
 }

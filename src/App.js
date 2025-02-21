@@ -2,8 +2,6 @@ import "animate.css/animate.min.css";
 import "../node_modules/animate.css/animate.min.css";
 import React from "react";
 import { AnimationOnScroll } from "react-animation-on-scroll";
-import SignupView from "./signupView"
-
 import "./App.css";
 const verses = [
   { text: "Amado, yo deseo que tú seas prosperado en todas las cosas, y que tengas salud, así como prospera tu alma.", reference: "3 Juan 1:2", animation: "animate__fadeInUp", color: "#d32f2f" },

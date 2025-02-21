@@ -9,9 +9,28 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: auto; /* Cambiar de 100vh a auto para permitir scroll */
+  width: 100vw;
   padding: 20px;
   text-align: center;
+  gap: 20px; /* Espacio entre tarjetas */
+}
+
+/* Estilos de la tarjeta del versículo */
+.verse-card {
+  border: 1px solid #bdb8b8;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Agrega una sombra ligera */
+  border-radius: 35px; /* Se añadió "px" para que funcione */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* Centrar contenido */
+  text-align: center;
+  height: auto; /* Cambiar de 95vh a auto para adaptarse al contenido */
+  width: 80vw; /* Reducir un poco el ancho para centrar mejor */
+  padding: 20px; /* Agregar padding interno */
+  margin: 20px auto; /* Agregar margen para evitar que se peguen a los lados */
+  background: white; /* Asegurar un fondo visible */
 }
 
 /* Estilos del texto del versículo */
